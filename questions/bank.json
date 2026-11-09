@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "question": "Show every column and every row from the assets table.",
+    "hint": "Use * to mean 'all columns'.",
+    "ordered": false,
+    "fingerprint": "e1afbec034aad5d1c88befb1272ba7b5527882e7e5e5c338894021ac866197cb"
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "question": "Show just the serial and brand of every asset.",
+    "hint": "List the columns you want after SELECT, separated by commas.",
+    "ordered": false,
+    "fingerprint": "9446390abe8956e1aaa5d07902d44cb1180f93136ae7b83fe2a30c837ffb1af8"
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "question": "Show only the asset_type column, for every asset (repeats are fine).",
+    "hint": "One column name after SELECT.",
+    "ordered": false,
+    "fingerprint": "32be0a4c40ca8f7da9c90271922a231c134c0ccd6b8aa65439de2131a8348b93"
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "question": "Show each brand once, with no repeats.",
+    "hint": "Look up the DISTINCT keyword.",
+    "ordered": false,
+    "fingerprint": "d3971081293ae5717dd3f472bd483641895d2124fc66449803f0d433182b462e"
+  },
+  {
+    "id": 5,
+    "level": 2,
+    "question": "Show every column for assets made by Dell.",
+    "hint": "WHERE filters rows. Text goes in single quotes: 'Dell'.",
+    "ordered": false,
+    "fingerprint": "162862410a281dc064536106907038ef3266206d1ff217dcb8b1b54a77928963"
+  },
+  {
+    "id": 6,
+    "level": 2,
+    "question": "Show the serial of every asset whose status is Erased.",
+    "hint": "WHERE status = '...'",
+    "ordered": false,
+    "fingerprint": "f20969075f4d161ba1c06f4faa350ce72c6e4681c7d1a6f4de9b72e36f857f1d"
+  },
+  {
+    "id": 7,
+    "level": 2,
+    "question": "Show every column for assets worth more than 100 pounds.",
+    "hint": "Numbers don't need quotes. Use > for 'more than'.",
+    "ordered": false,
+    "fingerprint": "4ad848165d7ec238298d083fb7f47d3de9919656d8698a205b4554d93747676a"
+  },
+  {
+    "id": 8,
+    "level": 2,
+    "question": "Show the serial and value_gbp of every laptop.",
+    "hint": "Filter on asset_type.",
+    "ordered": false,
+    "fingerprint": "75f9d8d7e3a7ae8f32d214cd05bec09bab0e4316a2ab1cea963cf4da7625ea4b"
+  },
+  {
+    "id": 9,
+    "level": 2,
+    "question": "Show every column for assets received on 10 September 2026.",
+    "hint": "Dates are stored as text like '2026-09-01'.",
+    "ordered": false,
+    "fingerprint": "80d225b33a71d68eb86c96032564330c4c28daf2c105ee8c1e7785785384d961"
+  },
+  {
+    "id": 10,
+    "level": 3,
+    "question": "Show the serial and value_gbp of every asset, most valuable first.",
+    "hint": "ORDER BY ... DESC sorts highest first.",
+    "ordered": true,
+    "fingerprint": "b4c0c1593dda957800745e5d7bdf5f87e34bd2c27d478e07624f9627f6fe714c"
+  }
+]
