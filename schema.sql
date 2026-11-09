@@ -3,7 +3,7 @@ asset_id	INTEGER PRIMARY KEY,
 serial 		TEXT NOT NULL,
 asset_type	TEXT,
 brand		TEXT,
-recieved_date	TEXT,
+received_date	TEXT,
 status		TEXT,
 value_gbp	REAL
 );
