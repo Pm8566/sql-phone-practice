@@ -28,7 +28,7 @@ def check(question_id, sql):
 	try:
 		rows = con.execute(sql).fetchall()
 	except sqlite3.Error as e:
-		return False, "Your SQL didn't run: " + str(e)
+		return False, "Your SQL didn't run: " + str(e) + ". Hint: " + question["hint"]
 	if fingerprint(rows, question["ordered"]) == question["fingerprint"]:
 		return True, "Correct!"
 	return False, "Not quite. Hint: " + question["hint"]
