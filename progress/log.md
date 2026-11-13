@@ -1,3 +1,4 @@
 - 2026-11-10 13:23 | Q1 | WRONG | `Select all from assets;`
 - 2026-11-10 13:27 | Q1 | CORRECT | `Select * from assets;`
 - 2026-11-11 19:00 | Q2 | CORRECT | 1374 min | `SELECT serial, brand FROM assets;`
+- 2026-11-13 07:49 | Q1 | CORRECT | 2153 min | `Select * FROM assets;`
