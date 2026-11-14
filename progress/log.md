@@ -3,3 +3,4 @@
 - 2026-11-11 19:00 | Q2 | CORRECT | 1374 min | `SELECT serial, brand FROM assets;`
 - 2026-11-13 07:49 | Q1 | CORRECT | 2153 min | `Select * FROM assets;`
 - 2026-11-13 20:35 | Q3 | WRONG | 25 min | `SELECT asset_type FROM asset;`
+- 2026-11-14 19:07 | Q3 | WRONG | 1377 min | `SELECT asset_type`
