@@ -1,5 +1,6 @@
 import json
 import os
+import sqlite3
 from datetime import date
 
 bank = json.load(open("questions/bank.json"))
@@ -46,6 +47,13 @@ else:
         body = body + " · 🔁 Review: you got this one wrong before."
     body = body + "\n\n" + next_question["question"] + "\n\n"
     body = body + "Reply with just your SQL as a comment. Table: `assets`."
+
+    # NEW: list the table's columns, read straight from schema.sql
+    con = sqlite3.connect(":memory:")
+    con.executescript(open("schema.sql").read())
+    columns = [row[1] for row in con.execute("PRAGMA table_info(assets)")]
+    body = body + "\n\nColumns: `" + "`, `".join(columns) + "`"
+
     open("title.txt", "w").write(title)
     open("body.txt", "w").write(body)
     print("Picked Q" + qid + label)
