@@ -11,3 +11,4 @@
 - 2026-11-19 18:45 | Q5 | WRONG | 345 min | `SELECT * FROM assets WHERE make = 'Dell';`
 - 2026-11-19 18:48 | Q5 | WRONG | 348 min | `Select * from assets Where make in ('dell');`
 - 2026-11-19 19:10 | Q5 | CORRECT | 370 min | `Select * from assets Where brand = 'Dell';`
+- 2026-11-20 13:04 | Q5 | CORRECT | 4 min | `SELECT * FROM assets WHERE brand IN ('Dell');`
