@@ -13,3 +13,4 @@
 - 2026-11-19 19:10 | Q5 | CORRECT | 370 min | `Select * from assets Where brand = 'Dell';`
 - 2026-11-20 13:04 | Q5 | CORRECT | 4 min | `SELECT * FROM assets WHERE brand IN ('Dell');`
 - 2026-11-21 16:51 | Q3 | CORRECT | 231 min | `SELECT asset_type FROM assets;`
+- 2026-11-22 17:50 | Q6 | CORRECT | 290 min | `SELECT serial FROM assets WHERE status IN ('Erased');`
